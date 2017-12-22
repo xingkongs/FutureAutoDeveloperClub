@@ -1,0 +1,240 @@
+main{
+    text-align: center;
+}
+.wrapped{
+    max-width:96%;
+    margin:0 auto;
+}
+img{
+    max-width:100%;
+}
+section .guest{
+    text-align: center;
+}
+.guest img{
+    height:44px;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
+.am-with-topbar-fixed-top {
+    padding-top: 0;
+}
+.am-dropdown-content{
+    background: rgba(255, 255, 255, 0.8);
+}
+.am-dropdown-content:after, .am-dropdown-content:before{
+    border-bottom-color:rgba(255, 255, 255, 0.6);
+}
+.am-dropdown-content li{cursor:pointer;}
+/*reset*/
+/*topbar reset*/
+header.am-topbar{
+    background: #316adb;
+    border:none;
+}
+header .am-container{
+    background: #316adb;
+    border:none;
+    text-align: center;
+}
+.am-nav>li>a{
+    padding:0.6em 2em;
+    font-size:15px;
+}
+.am-nav>li>a:focus, .am-nav>li>a:hover {
+    background-color: transparent;
+}
+header .am-topbar-btn{
+    margin-top: 10px;
+    background: transparent;
+    color:#fff!important;
+}
+.am-topbar-brand img{
+    color: #fff;
+    max-height: 20px;
+    width: auto;
+}
+.am-topbar a {
+    color: #fff;
+}
+.banner{
+    width:100%;
+    height:250px;
+    background: #ccc url(../images/bannermin.png) no-repeat center;
+    background-size:cover;
+}
+
+/*purpose*/
+.purpose .guest{
+    padding:25px 0;
+}
+.purpose_content{
+    font-size:14px;
+    line-height:2;
+    color:#00005a;
+    text-align:center;
+    margin:0;
+}
+.content--wrapper:not(:last-child){
+    padding-bottom:80px;
+}
+.content_title img {
+    max-height: 32.5px;
+    margin-bottom:20px;
+}
+.am-g .img--wrapper{
+    margin-bottom:25px;
+}
+[class*=am-u-]+[class*=am-u-]:last-child{
+    float:left;
+}
+.am-g .img--wrapper img{
+    background: #f2f3f6;
+    height:47px;
+}
+
+/*clubMember*/
+.clubMember .guest{
+    padding:50px 0 30px;
+}
+.clubMember{
+    margin-bottom:40px;
+}
+.member_content img{
+    width:164px;
+    height:78px;
+    background: #fffafa;
+    text-align:center;
+}
+.clubMember .img--wrapper p{
+    font-size:13px;
+    color:#00005a;
+    margin:10px 0 0;
+    line-height:1;
+}
+
+/*activies*/
+.clubActivities .guest{
+    padding:55px 0 25px;
+}
+.activies_title--re{
+    margin:25px auto 20px;
+}
+.activies_title span{
+    display:inline-block;
+    line-height:1;
+    font-size:15px;
+    color:#00005a;
+    font-weight:bold;
+    width:100%;
+    position:relative;
+    z-index:2;
+}
+/*activies Trailer*/
+.card{
+    position:relative;
+    margin: 20px 0 0;
+}
+.card .img--wrapper img{
+    width:100%;
+
+}
+.card .content--wrapper{
+    margin: -3px 6px 0;
+}
+.card_content{
+    border:3px solid #000;
+    border-top:none;
+    text-align:left;
+    padding:10px 15px;
+    color:#00005a;
+    width:100%;
+    line-height:1;
+
+}
+.card_title{
+    font-size:26px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.activies_title.title--re{
+    margin:25px auto 20px;
+}
+.card_tip{
+    font-size:15px;
+    padding-bottom:15px;
+    margin-bottom:15px;
+    border-bottom:1px dashed #00005a;
+}
+.card_time,.card_place{
+    font-size:12px;
+    margin-bottom:15px;
+    line-height:1.5;
+}
+
+/*lactactivies*/
+.activies_title_2{
+    font-size:15px;
+    font-weight:bold;
+    text-align:left;
+    position:relative;
+    line-height:1;
+    margin-bottom:20px;
+}
+.activies_title_2:after{
+    content:'';
+    display:inline-block;
+    position:absolute;
+    left:0;
+    width:24px;
+    height:2px;
+    background: #00005a;
+    bottom:-10px;
+}
+.lastactiviescard--wrapper{
+    text-align:left;
+    color:#00005a;
+}
+.lastactiviescard--wrapper .card--warpper{
+    max-width:40%;
+    margin-right:30px;
+}
+.lastactiviescard--wrapper .card--warpper:nth-child(n+4){
+    margin-top:20px;
+}
+.lastactiviescard--wrapper .card--warpper p{
+    text-align: center;
+    color:#00005a;
+    margin:15px auto 20px;
+    line-height:1;
+}
+.lastactiviescard--wrapper .img--wrapper{
+    position:relative;
+}
+
+
+.contectus{
+    margin-bottom:200px;
+}
+.contectus .guest{
+    margin:35px auto 40px;
+}
+.contectus>img{
+    width:100%;
+}
+
+.am-gotop-fixed{
+    width:60px;
+    height:60px;
+}
+.am-gotop-fixed .am-gotop-icon-custom{
+    width:60px;
+    height:60px;
+    max-width:60px;
+}
