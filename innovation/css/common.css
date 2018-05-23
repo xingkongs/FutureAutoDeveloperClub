@@ -1,0 +1,131 @@
+/*reset*/
+*,:before,:after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    -webkit-tap-highlight-color:transparent;
+}
+a{
+    text-decoration:none;
+}
+.am-with-topbar-fixed-top{
+    padding-top:46px;
+}
+.wrapped{
+    max-width:1100px;
+    margin:0 auto;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+ul,li,ol,ol>li>ol, ol>li>ul, ul>li>ol, ul>li>ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+p,*+p{
+    margin:0;
+    line-height: 1;
+}
+img{
+    user-select: none;
+}
+.clearfix{
+    *zoom:1;
+}
+.am-fl{
+    float:left;
+}
+.am-fr{
+    float:right;
+}
+.am-topbar-fixed-top{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.am-btn.am-disabled, .am-btn[disabled], fieldset[disabled] .am-btn,.am-disabled, .disabled {
+    pointer-events: none;
+    border-color: transparent;
+    cursor: not-allowed;
+    opacity: .45;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.img--wrapper{
+    position: relative;
+}
+.img--wrapper:hover{
+    border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.foot--wrapper {
+    padding-top: 40px;
+    background: #fafafa;
+}
+.foot--wrapper .am-container {
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0;
+}
+.foot--wrapper .foot--list {
+    margin: 0 auto;
+    display:table;
+}
+.foot--wrapper a {
+    padding: 0 20px;
+    position: relative;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+.foot--wrapper a:last-of-type {
+    padding: 0 20px;
+    position: relative;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+.foot--wrapper a:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 0;
+    border-left: 1px solid #ceced0;
+    height: 14px;
+}
+.foot--wrapper a:hover{
+    color:#f60;
+}
+.foot--wrapper .foot--copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #949494;
+    padding: 20px 0 40px;
+}
+.foot--wrapper .foot--copyright_a {
+    color: #787878;
+    padding: 0 5px;
+}
+
+.goTop{
+    position: fixed;
+    right:20px;
+    bottom:100px;
+    font-size:24px;
+}
+.goTop li{
+    opacity: 0;
+}
+.goTop img{
+    width:45px;
+    height:45px;
+}

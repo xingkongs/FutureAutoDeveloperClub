@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>2018珠三角未来汽车供应链创新论坛</title>
+    <meta name="keywords" content="未来汽车,珠三角未来汽车,供应链创新论坛">
+    <meta name="description" content="2018未来汽车供应链创新论坛于2018年3月31日在深圳星河丽思卡尔顿酒店举行，主办单位是GNEV官方机构，由第一电动网和广东省新能源汽车产业协会联合举办。">
+    <link rel="stylesheet" href="//assets-cdn.d1ev.com/ajax/libs/amazeui/2.7.2/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/mobile.css?v=20180402">
+    <script>
+    !(function(){
+        if(!navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        var search=window.location.search;
+        var hash=window.location.hash;
+        window.location.href = 'index.html'+search+hash;
+    } else { console.log("2018珠三角未来汽车供应链创新论坛-mobile")}
+    })();
+
+    </script>
+</head>
+<body>
+<header></header>
+<main>
+    <section class="banner">
+        <img src="image/bannermin.jpg" alt="">
+    </section>
+    <section class="information wrapped">
+        <div class="title--logo">
+            <img src="image/line.png" alt="">
+            <p class="title_p">组织结构</p>
+        </div>
+        <div class="infor_content">
+        </div>
+    </section>
+    <section class="speech wrapped">
+        <div class="title--logo">
+            <img src="image/line.png" alt="">
+            <p class="title_p">嘉宾演讲</p>
+        </div>
+        <div class="speech_list news">
+        </div>
+    </section>
+    <section class="ad"></section>
+    <section class="forum wrapped"></section>
+    <section class="sharon wrapped"></section>
+    <section class="partner wrapped">
+        <div class="title--logo">
+            <img src="image/line.png" alt="">
+            <p class="title_p">合作伙伴</p>
+        </div>
+        <div class="partner_list clearfix">
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="foot--wrapper">
+        <div class="am-container">
+            <div class="foot--copyright">Copyright © 2010-2018<a style="color:#949494;" href="http://www.d1ev.com" class="foot--copyright_a">第一电动网</a>京ICP备14024261号 京ICP证160753号<a style="color:#949494;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502033163" target="_blank"><img style="margin-bottom:4px;" src="http://cdn-fs.d1ev.com/d/file/default/ghs.png">京公网安备 11010502033163号</a>广播电视节目制作经营许可证（京）字第06795号</div>
+        </div>
+    </div>
+</footer>
+
+<ul class="goTop">
+    <li><a href="javascript:;" onclick="$('html,body').animate({scrollTop: 0}, 700);"><img src="image/goTop.png" alt=""></a></li>
+</ul>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script type="text/javascript" src="//cdn-fs.d1ev.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script type="text/javascript" src="//cdn-fs.d1ev.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn-fs.d1ev.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script type="text/javascript" src="//cdn-fs.d1ev.com/ajax/libs/amazeui/2.7.2/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="//cdn-fs.d1ev.com/ajax/libs/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script type="text/javascript" src="//cdn-fs.d1ev.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+<script src="js/template-web.js"></script>
+<script src="js/dataList2.js?v=2018040201"></script>
+<script id="information" type="text/html">
+    {{each information value i}}
+    <p><b>{{value.type}}</b>{{value.department}}</p>
+    {{/each}}
+</script>
+<script id="List" type="text/html">
+    <div class="wrapper">
+        {{each list value i}}
+        {{if list.length}}
+        <section class="article--wraped clearfix">
+            <a href="{{value.href}}" target="_blank">
+                <div class="article--content am-fl">
+                    <span class="article_p">{{value.title}}</span>
+                    <div class="forter">
+                        <span>第一电动网</span>
+                        <span>{{value.time}}</span>
+                    </div>
+                </div>
+                <div class="article--img am-fr">
+                    <img data-src="{{value.image}}" alt="{{value.title}}" style="height: 76px; display: inline;">
+                </div>
+                <div class="paiming"></div>
+            </a>
+        </section>
+        {{else}}
+        <li class="clearfix">
+            <a href="javascript:;">没有内容</a>
+        </li>
+        {{/if}}
+        {{/each}}
+    </div>
+</script>
+<script id="ad" type="text/html">
+    {{each wap value i}}
+    {{if wap !== undefined}}
+    <a href="{{value.href}}" target="_blank">
+        <div class="wrapped">
+            <img data-src="{{value.image}}" alt="">
+        </div>
+    </a>
+    {{/if}}
+    {{/each}}
+</script>
+<script id="forumList" type="text/html">
+    {{each list value i}}
+    {{if list.length}}
+    <div class="title--logo">
+        <img data-src="image/line.png" alt="">
+        <p class="title_p">{{value.forumzhuti}}</p>
+    </div>
+    <div class="forum_list clearfix list">
+        <div class="wrapper">
+            <section class="pictures_content">
+                <a href="{{value.link}}" target="_blank">
+                    <p>{{value.title}}</p>
+                    <div class="img--wrapper">
+                        <img data-src="{{value.image}}" alt="{{value.title}}">
+                    </div>
+                    <div class="clearfix forter">
+                        <div class="am-fl">
+                            <span>第一电动网</span>
+                            <span>{{value.time}}</span>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </div>
+    {{else}}
+    <a href="javascript:;"><p class="">没有内容</p></a>
+    {{/if}}
+    {{/each}}
+</script>
+<script id="sharon" type="text/html">
+    {{each list value i}}
+    {{if list}}
+    <div class="title--logo">
+        <img data-src="image/line.png" alt="">
+        <p class="title_p">{{value.forumzhuti}}</p>
+    </div>
+    <div class="forum_list news">
+        <div class="wrapper">
+            <section class="article--wraped clearfix">
+                <a href="{{value.href}}" target="_blank">
+                    <div class="article--content am-fl">
+                        <span class="article_p">{{value.title}}</span>
+                        <div class="forter">
+                            <span>第一电动网</span>
+                            <span>{{value.time}}</span>
+                        </div>
+                    </div>
+                    <div class="article--img am-fr">
+                        <img data-src="{{value.image}}" alt="{{value.title}}" style="height: 76px; display: inline;">
+                    </div>
+                    <div class="paiming"></div>
+                </a>
+            </section>
+        </div>
+    </div>
+    {{else}}
+    <div class="clearfix">
+        <a href="javascript:;">没有内容</a>
+    </div>
+    {{/if}}
+    {{/each}}
+</script>
+<script id="partnerlist" type="text/html">
+    {{each partnerList value i}}
+    <li>
+        <div class="img--wrapper">
+            <img data-src="{{value.image}}?v=2018040201" alt="{{value.name}}" title="{{value.name}}">
+        </div>
+    </li>
+    {{/each}}
+</script>
+<script>
+    var information = template("information",data);
+    document.querySelector(".infor_content").innerHTML = information;
+
+    var speech = template("List",data.speechList);
+    document.querySelector(".speech_list").innerHTML = speech;
+
+    var ad = template("ad",data.ad);
+    document.querySelector(".ad").innerHTML = ad;
+
+    var sharon = template("sharon",data.sharonList);
+    document.querySelector(".sharon").innerHTML = sharon;
+
+    var partner = template("partnerlist", data);
+    document.querySelector(".partner_list").innerHTML = partner;
+    $(document).on("scroll",function (e) {
+        if($(this).scrollTop()>200){
+            $(".goTop li:last-of-type").css("opacity","1");
+        }else{
+            $(".goTop li:last-of-type").css("opacity","0");
+        }
+    });
+    function lazyload_img() {
+        $('img[data-src]').lazyload({data_attribute: 'src', placeholder: '//cdn-fs.d1ev.com/d/file/default/no-picture.gif'});
+    }
+    lazyload_img();
+
+</script>
+<!--微信 jssdk-->
+<script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<!--微信分享-->
+<script type="text/javascript">
+    $.ajax({
+        url: '//www.d1ev.com/upload/file/jssdk_signpackage', //获取微信 jssdk 签名信息
+        type: 'POST',
+        dataType: 'json',
+        data: {'share_url': window.location.href}, //当前页面 URL
+        success: function ($data) {
+            //console.log($data); //调试返回数据
+            if ($data.appId !== undefined) {
+                var shareData = {
+                    title: document.title, //标题
+                    desc:'2018全球新能源汽车大会未来汽车展将于7月12日至7月14日在上海汽车会展中心举办，大会将围绕智能、安全、环保等理念展开讨论，还包括全球新能源汽车交易，展览，合作等内容，是国内最专业的大型新能源汽车展览会。', //描述
+                    link: $data.url, //URL，及 share_url
+                    imgUrl: window.location.origin + '/src/common/public/images/innovation-logo.png' //图标
+                };
+                wx.config({
+                    debug: false,
+                    appId: $data.appId,
+                    timestamp: $data.timestamp,
+                    nonceStr: $data.nonceStr,
+                    signature: $data.signature,
+                    jsApiList: ['checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo', 'onMenuShareQZone']
+                });
+                wx.ready(function () {
+                    wx.onMenuShareTimeline(shareData);
+                    wx.onMenuShareAppMessage(shareData);
+                    wx.onMenuShareQQ(shareData);
+                    wx.onMenuShareWeibo(shareData);
+                    wx.onMenuShareQZone(shareData);
+                });
+            }
+        }
+    });
+</script>
+
+<div id="footer-analysis-3rd" style="display: none;">
+<script type="text/javascript" src="//www.d1ev.com/src/assets/1.0.0/analysis.3rd.js?v=2018l"></script>
+</div>
+</body>
+</html>
