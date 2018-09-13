@@ -114,11 +114,17 @@ img{
 .news .article--wraped .article--img {
     width: 32%;
     position: relative;
+    max-height: 8rem;
+    min-height: 73px;
+    overflow: hidden;
 }
 .news .article--wraped .article--img img {
     width: 100%;
-    max-height: 8rem;
-    min-height: 73px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .news .article--content {
     width: 68%;
